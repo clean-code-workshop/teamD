@@ -11,7 +11,7 @@ public class FlagFactory {
         List<Color> result;
         switch (nationality) {
         case DUTCH:
-            result = Arrays.asList(Color.RED, Color.WHITE, Color.BLUE);
+            result = Arrays.asList(Color.RED, Color.WHITE, Color.BLUE); 
             break;
         case GERMAN:
             result = Arrays.asList(Color.BLACK, Color.RED, Color.YELLOW);
@@ -39,6 +39,9 @@ public class FlagFactory {
             break;
         case RUSSIA:
             result = Arrays.asList(Color.WHITE, Color.BLUE, Color.RED);
+            break;
+        case LUXEMBURG:
+            result = Arrays.asList(Color.RED, Color.WHITE, Color.LIGHTBLUE); 
             break;
         case UNCLASSIFIED:
         default:
